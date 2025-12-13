@@ -190,7 +190,7 @@
       "homepage": "https://github.com/anthropics/claude-plugins-public/tree/main/external_plugins/laravel-boost"
     },
     {
-      "name": "figma",
+      "name": "figma-mcp",
       "description": "Figma design platform integration. Access design files, extract component information, read design tokens, and translate designs into code. Bridge the gap between design and development workflows.",
       "category": "design",
       "source": "./external_plugins/figma",
