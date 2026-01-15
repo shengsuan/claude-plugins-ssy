@@ -1,6 +1,6 @@
 {
   "name": "playwright",
-  "description": "Browser automation and end-to-end testing MCP server by Microsoft. Enables Claude to interact with web pages, take screenshots, fill forms, click elements, and perform automated browser testing workflows.",
+  "description": "Microsoft 提供的浏览器自动化和端到端测试 MCP 服务器。使 Claude 能够与网页交互、截图、填写表单、点击元素并执行自动化浏览器测试工作流程。",
   "author": {
     "name": "Microsoft"
   }

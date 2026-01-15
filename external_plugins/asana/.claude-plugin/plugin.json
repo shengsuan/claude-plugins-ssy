@@ -1,6 +1,6 @@
 {
   "name": "asana",
-  "description": "Asana project management integration. Create and manage tasks, search projects, update assignments, track progress, and integrate your development workflow with Asana's work management platform.",
+  "description": "Asana 项目管理集成。创建和管理任务、搜索项目、更新分配、跟踪进度，并将您的开发工作流程与 Asana 的工作管理平台集成。",
   "author": {
     "name": "Asana"
   }

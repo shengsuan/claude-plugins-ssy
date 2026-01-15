@@ -1,6 +1,6 @@
 {
   "name": "slack",
-  "description": "Slack workspace integration. Search messages, access channels, read threads, and stay connected with your team's communications while coding. Find relevant discussions and context quickly.",
+  "description": "Slack 工作区集成。搜索消息、访问频道、阅读主题，并在编码时与团队沟通保持联系。快速找到相关讨论和上下文。",
   "author": {
     "name": "Slack"
   }

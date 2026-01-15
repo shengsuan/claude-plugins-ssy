@@ -1,6 +1,6 @@
 {
   "name": "greptile",
-  "description": "AI code review agent for GitHub and GitLab. View and resolve Greptile's PR review comments directly from Claude Code.",
+  "description": "适用于 GitHub 和 GitLab 的 AI 代码审查代理。直接从 Claude Code 查看和解决 Greptile 的 PR 审查评论。",
   "author": {
     "name": "Greptile",
     "url": "https://greptile.com"
