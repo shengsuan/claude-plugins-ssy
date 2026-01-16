@@ -1,47 +1,47 @@
-# Claude Code Plugins Directory
+# Claude Code 插件市场
 
-A curated directory of high-quality plugins for Claude Code.
+一个精选的 Claude Code 高质量插件目录。包含 claude-code 官方插件市场中的所有插件，另外精选收录了第三方插件市场的优秀插件。
 
-> **⚠️ Important:** Make sure you trust a plugin before installing, updating, or using it. Anthropic does not control what MCP servers, files, or other software are included in plugins and cannot verify that they will work as intended or that they won't change. See each plugin's homepage for more information.
+> **⚠️ 注意:** 在安装、更新或使用插件之前，请务必确认您信任该插件。Anthropic 无法控制插件中包含的 MCP 服务器、文件或其他软件，也无法保证它们能够按预期运行或不会发生更改。更多信息，请访问各插件的主页。
 
-## Structure
+## 结构
 
-- **`/plugins`** - Internal plugins developed and maintained by Anthropic
-- **`/external_plugins`** - Third-party plugins from partners and the community
+- **`/plugins`** - 由 Anthropic 开发和维护的内部插件
+- **`/external_plugins`** - 来自合作伙伴和社区的第三方插件
 
-## Installation
+## 安装
 
-Plugins can be installed directly from this marketplace via Claude Code's plugin system.
+用户可以通过 Claude Code 的插件系统直接从该市场安装插件。
 
-To install, run `/plugin install {plugin-name}@claude-plugin-directory`
+运行 `/plugin install {plugin-name}@claude-plugin-directory`
 
-or browse for the plugin in `/plugin > Discover`
+完成安装，或运行 `/plugin > Discover` 命令浏览插件目录
 
-## Contributing
+## 贡献
 
-### Internal Plugins
+### 内部插件
 
-Internal plugins are developed by Anthropic team members. See `/plugins/example-plugin` for a reference implementation.
+内部插件由 Anthropic 团队成员开发。请参阅 `/plugins/example-plugin` 获取参考实现。
 
-### External Plugins
+### 外部插件
 
-Third-party partners can submit plugins for inclusion in the marketplace. External plugins must meet quality and security standards for approval.
+第三方合作伙伴可以提交插件以供上架应用商店。外部插件必须符合质量和安全标准才能获得批准。
 
-## Plugin Structure
+## 插件目录结构
 
-Each plugin follows a standard structure:
+每个插件都遵循标准结构：
 
 ```
 plugin-name/
 ├── .claude-plugin/
-│   └── plugin.json      # Plugin metadata (required)
-├── .mcp.json            # MCP server configuration (optional)
-├── commands/            # Slash commands (optional)
-├── agents/              # Agent definitions (optional)
-├── skills/              # Skill definitions (optional)
-└── README.md            # Documentation
+│   └── plugin.json      # 插件元数据（必填）
+├── .mcp.json            # MCP 服务器配置（可选）
+├── commands/            # 斜杠命令（可选）
+├── agents/              # 代理定义（可选）
+├── skills/              # Skill 定义 (可选)
+└── README.md            # 文档
 ```
 
-## Documentation
+## 文档
 
-For more information on developing Claude Code plugins, see the [official documentation](https://code.claude.com/docs/en/plugins).
+有关开发 Claude Code 插件的更多信息，请参阅[官方文档](https://code.claude.com/docs/en/plugins)。
