@@ -1,4 +1,4 @@
-[!TIP] Languages: English | |
+[![English README](https://img.shields.io/badge/Language-EN-blue.svg?longCache=true&style=for-the-badge)](./README.en.md)
 
 # Claude Code 插件市场
 
