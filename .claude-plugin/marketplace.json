@@ -77,6 +77,18 @@
       }
     },
     {
+      "name": "go-zero",
+      "version": "1.0.0",
+      "description": "适用于 go-zero 微服务框架的 Claude Code 综合插件。提供知识库、最佳实践以及 goctl 工具集成，用于构建可用于生产环境的 go-zero 应用程序。",
+      "author": {
+        "name": "coohu",
+        "email": "1257817341@q.com"
+      },
+      "source": "./plugins/go-zero",
+      "category": "development",
+      "homepage": "https://go-zero.dev"
+    },
+    {
       "name": "rust-analyzer-lsp",
       "description": "Rust 语言服务器，提供代码智能和分析功能",
       "version": "1.0.0",

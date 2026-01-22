@@ -1,0 +1,18 @@
+{
+  "name": "go-zero",
+  "version": "1.0.0",
+  "description": "Comprehensive Claude Code plugin for go-zero microservices framework. Provides knowledge base, best practices, and goctl tool integration for building production-ready go-zero applications.",
+  "author": {
+    "name": "coohu",
+    "url": "1257817341@q.com"
+  },
+  "homepage": "https://go-zero.dev",
+  "repository": "https://github.com/zeromicro/go-zero",
+  "license": "Apache-2.0",
+  "keywords": ["go-zero", "microservices", "golang", "rest-api", "grpc", "goctl"],
+  "update":{
+    "ea44b90860d28b0ab14e628595e898525536d248":"https://github.com/zeromicro/ai-context",
+    "9ac2d414bf8df6a6ad77134e7b8458ff20043ee7":"https://github.com/zeromicro/zero-skills",
+    "822df0cff43684bd5337be2a6f56492dcb0ae640":"https://github.com/zeromicro/mcp-zero"
+  }
+}

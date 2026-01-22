@@ -1,0 +1,19 @@
+# Local settings
+.claude/*.local.md
+
+# Build artifacts
+bin/mcp-zero
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log

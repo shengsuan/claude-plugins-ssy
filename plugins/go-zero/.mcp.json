@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "mcp-zero": {
+      "command": "${CLAUDE_PLUGIN_ROOT}/bin/mcp-zero",
+      "env": {
+        "GOCTL_PATH": "goctl"
+      }
+    }
+  }
+}
